@@ -1,0 +1,122 @@
+html{
+    background-color:#81074e;
+    background-color: #fcdea0;
+}
+
+body{
+    background-color:#fff;
+    margin: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.wrapperHead{
+    
+    background-color: #063970;
+    background-color: #e1eaff;
+    background-image: url(../Images/grunge-paint-background_1409-1337.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.wrapper{
+    margin-left: 20px;
+    max-width: 1000px;
+    
+}
+
+.wrapperHead p{
+    border-top: none;
+    border-bottom: none;
+}
+
+.main-area{
+    width: 50%;
+    float: left;
+}
+
+.main-area h1{
+    margin-bottom: 0;
+}
+.main-area p{
+    margin-top: 0;
+}
+
+.main-area ul{
+    margin-top: 5px;
+}
+.content-area{
+    width: 50%;
+    float: right;
+    margin-top: 19px;
+}
+
+.secondContent-area li{
+    float: left;
+    margin-right: 30px;
+    margin-top: 0;
+}
+
+.secondContent-area li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.secondContent-area li:hover{
+    background-color: #f8e4bb;
+}
+
+.thirdContent-area li{
+    float: left;
+    margin-right: 102px;
+    margin-top: 5px;
+}
+
+.thirdContent-area li:hover{
+    background-color: #f8e4bb;
+}
+
+footer{
+    background-image: url(../Images/grunge-paint-background_1409-1337.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin: 5px 0;
+    padding: 0.5px 0;
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+footer li {
+    float: left;
+    padding-right: 30px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000;
+    font-style: bold;
+}
+
+footer a:hover{
+    background-color: #f8e4bb;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
